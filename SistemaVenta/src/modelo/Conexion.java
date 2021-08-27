@@ -13,15 +13,15 @@ public class Conexion {
         try {
             //conexion remota
             /*
-            String url = "jdbc:mysql://bjrxoj3hvkhmofogxies-mysql.services.clever-cloud.com:3306/bjrxoj3hvkhmofogxies";
-            String user = "uvnmbvvg9ocpbafh";
-            String pass = "WW4hxVPtwBTF5vamOaTC";
+            String url = "jdbc:mysql:";
+            String user = "";
+            String pass = "";
 */
             //Conexion local
             
-            String url = "jdbc:mysql://localhost:3306/sistemaventas";
-            String user = "root";
-            String  pass = "";
+            String url = "jdbc:mysql://localhost/";
+            String user = "";
+            String pass = "";
             
             
             con = DriverManager.getConnection(url, user, pass);
